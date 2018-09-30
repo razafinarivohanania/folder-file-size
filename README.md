@@ -1,18 +1,18 @@
 # 1. What is it for?
 
-This program allows to retrieve all folder and files size for all partitions avalaible. Output is sorted by descending size followed by name ordering.
+This program allows to retrieve all folders and files size for all partitions avalaible. Output is sorted by descending size followed by name ordering.
 
 NB : Only Windows operation system is supported.
 
 # 2. How to run it?
 
-Clone the project from git or clone zip file and unzip it. Once done, run the foolowing command lines to install all dependencies :
+Clone the project from git or clone zip file and unzip it. Once done, run the foolowing command line to install all dependencies :
 
 ```sh
 $ node install
 ```
 
-Then, run and wait until it has finish the job :
+Then, run and wait until it has finished the job :
 
 ```sh
 $ node index
@@ -31,11 +31,11 @@ Sort by descending size ...
 Result JSON saved into [folder-file-size.json]
 ```
 
-NB : Errors found means that a problem was occured when the program attempts to read the current folder/file. Most of the time, it has not authorise to read folder/property. Often occured on operation system folder. It is recommended to run program as administrator.
+NB : Errors found means that a problem was occured when the program attempts to read the current folder/file. Most of the time, it is not authorised to read folder/property. Often occured on operation system folder. It is recommended to run program as administrator.
 
 # 3. What i get after?
 
-When all thing is done, a file *folder-file-size.json* will be created. Beware, output file can be heavy deponding all files on the all partitions. Its structure is like this :
+When all thing is done, a file *folder-file-size.json* will be created. Beware, output file can be heavy depending all files found on all partitions. Its structure is like this :
 
 ```json
 [
