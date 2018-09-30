@@ -1,0 +1,19 @@
+{
+  "name": "folder-file-size",
+  "version": "1.0.0",
+  "description": "Retrieve all folder and file size found on all disk partitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "folder",
+    "file",
+    "size"
+  ],
+  "author": "RAZAFINARIVO Hanania",
+  "license": "ISC",
+  "devDependencies": {
+    "single-line-log": "^1.1.2"
+  }
+}
