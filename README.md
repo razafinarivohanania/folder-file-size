@@ -1,4 +1,4 @@
-# 1. What is it for?
+# 1. What is it used for?
 
 This program allows to retrieve all folders and files size for all partitions avalaible. Output is sorted by descending size followed by name ordering.
 
