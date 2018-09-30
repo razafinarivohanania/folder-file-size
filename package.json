@@ -1,7 +1,7 @@
 {
   "name": "folder-file-size",
   "version": "1.0.0",
-  "description": "Retrieve all folder and file size found on all disk partitions",
+  "description": "Retrieve all folders and files size found on all disk partitions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
