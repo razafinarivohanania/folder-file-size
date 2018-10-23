@@ -144,7 +144,7 @@ const ForlderFileSize = {
         if (step == undefined || ForlderFileSize.filesFound % step == 0)
             log(`Errors found  : ${ForlderFileSize.errors}\nFiles treated : ${ForlderFileSize.filesFound}`);
     },
-    buildProgressBar: (percent) => {
+    buildProgressBar: percent => {
         let progressBar = '';
         const steps = 30;
         const value = steps * percent / 100;
