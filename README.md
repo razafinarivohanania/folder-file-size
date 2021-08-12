@@ -9,7 +9,7 @@ NB : Only Windows operation system is supported.
 Clone the project from git or clone zip file and unzip it. Once done, run the foolowing command line to install all dependencies :
 
 ```sh
-$ node install
+$ npm install
 ```
 
 Then, run and wait until it has finished the job :
